@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#F5F0E8">
+<title>Perora Press — Kommer snart</title>
+<meta name="description" content="Perora Press, et nyt forlag. Kommer snart.">
+<link rel="canonical" href="https://perora.dk/">
+<link rel="alternate" hreflang="en" href="https://perorapress.com/">
+<link rel="alternate" hreflang="da" href="https://perora.dk/">
+<link rel="alternate" hreflang="x-default" href="https://perorapress.com/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.png" sizes="96x96" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/fonts/cinzel-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Perora Press">
+<meta property="og:url" content="https://perora.dk/">
+<meta property="og:title" content="Perora Press — Kommer snart">
+<meta property="og:description" content="Perora Press, et nyt forlag. Kommer snart.">
+<meta property="og:image" content="https://perora.dk/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Perora Press’ logo">
+<meta property="og:locale" content="da_DK">
+<meta property="og:locale:alternate" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  @font-face {
+    font-family: "Cinzel";
+    src: url("/fonts/cinzel-latin-400-normal.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  :root {
+    --paper: #F5F0E8;
+    --ink: #211C18;
+    --ink-soft: rgb(33 28 24 / 0.74);
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--paper); }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Cinzel", "Trajan Pro", "Iowan Old Style", Palatino, "Palatino Linotype", Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: clamp(1.5rem, 7vh, 4rem) 1rem clamp(1rem, 4vh, 2rem);
+    text-align: center;
+  }
+  h1 { margin: 0; line-height: 0; font-size: 1rem; }
+  .logo {
+    display: block;
+    width: min(21rem, 64vw, 48vh);
+    width: min(21rem, 64vw, 48svh);
+    height: auto;
+  }
+  .soon {
+    margin: clamp(2rem, 7vh, 3.75rem) 0 0;
+    padding-left: 0.42em; /* holder teksten optisk i midten trods spatieringen */
+    font-size: clamp(0.95rem, 0.86rem + 0.45vw, 1.2rem);
+    letter-spacing: 0.42em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  footer {
+    padding: 1rem 1rem calc(1.5rem + env(safe-area-inset-bottom));
+    text-align: center;
+  }
+  footer a {
+    display: inline-block;
+    padding: 0.5rem 0 0.25rem 0.3em;
+    font-size: 0.78rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  footer a:hover,
+  footer a:focus-visible { color: var(--ink); border-bottom-color: currentColor; }
+  a:focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
+</style>
+</head>
+<body>
+<main>
+  <h1><img class="logo" src="/logo.svg" alt="Perora Press" width="954" height="1040" fetchpriority="high"></h1>
+  <p class="soon">Kommer snart</p>
+</main>
+<footer>
+  <a href="https://perorapress.com/" hreflang="en" lang="en">English</a>
+</footer>
+</body>
+</html>
